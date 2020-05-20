@@ -26,7 +26,7 @@ public class AirplaneAdapter implements CollateralObject {
 
     @Override
     public List<Rate> getRate() {
-        return airPlaneDto.getRate();
+        return airPlaneDto.getRates();
     }
 
 }

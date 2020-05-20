@@ -26,6 +26,6 @@ public class CarAdapter implements CollateralObject {
 
     @Override
     public List<Rate> getRate() {
-        return car.getRate();
+        return car.getRates();
     }
 }

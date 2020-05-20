@@ -26,7 +26,7 @@ public class AirPlane {
 
     @JoinColumn(name = "assessed_value")
     @OneToMany(cascade = CascadeType.ALL,  fetch = FetchType.LAZY)
-    private List<Rate> rate;
+    private List<Rate> rates;
 
 }
 

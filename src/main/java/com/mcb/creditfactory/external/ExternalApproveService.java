@@ -36,7 +36,7 @@ public class ExternalApproveService {
         if (object.getYear() < MIN_CAR_YEAR) {
             return -10;
         }
-        if (object.getRate().get(object.getRate().size()-1).getData().isBefore(MIN_ASSESS_DATE)) {
+        if (object.getRate().get(object.getRate().size()-1).getDate().isBefore(MIN_ASSESS_DATE)) {
             return -11;
         }
         if (object.getRate().get(object.getRate().size()-1).getValue().compareTo(MIN_CAR_VALUE) < 0) {
@@ -50,7 +50,7 @@ public class ExternalApproveService {
         if (object.getYear() < MIN_PLANE_YEAR) {
             return -20;
         }
-        if (object.getRate().get(object.getRate().size()-1).getData().isBefore(MIN_ASSESS_DATE)) {
+        if (object.getRate().get(object.getRate().size()-1).getDate().isBefore(MIN_ASSESS_DATE)) {
             return -21;
         }
         if (object.getRate().get(object.getRate().size()-1).getValue().compareTo(MIN_PLANE_VALUE) < 0) {

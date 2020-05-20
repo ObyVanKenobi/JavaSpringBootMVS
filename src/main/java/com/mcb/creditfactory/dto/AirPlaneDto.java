@@ -21,7 +21,7 @@ public class AirPlaneDto implements Collateral {
     private String model;
     private Double power;
     private Short year;
-    private List<Rate> rate;
+    private List<Rate> rates;
 
 
     }

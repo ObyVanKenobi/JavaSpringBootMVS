@@ -23,14 +23,14 @@ public class Rate {
     @Column(name= "assessed_value")
     private BigDecimal value;
 
-    @Column(name = "data")
-    private LocalDate data;
+    @Column(name = "date")
+    private LocalDate date;
 
 
     public Rate(BigDecimal value) {
 
         this.value = value;
-        this.data = LocalDate.now();
+        this.date = LocalDate.now();
 
     }
 }

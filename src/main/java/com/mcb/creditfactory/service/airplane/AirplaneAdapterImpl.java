@@ -44,7 +44,7 @@ public class AirplaneAdapterImpl  implements AirplaneService{
                 dto.getModel(),
                 dto.getPower(),
                 dto.getYear(),
-                dto.getRate()
+                dto.getRates()
         );
     }
 
@@ -56,7 +56,7 @@ public class AirplaneAdapterImpl  implements AirplaneService{
                 airPlane.getModel(),
                 airPlane.getPower(),
                 airPlane.getYear(),
-                airPlane.getRate()
+                airPlane.getRates()
         );
     }
 

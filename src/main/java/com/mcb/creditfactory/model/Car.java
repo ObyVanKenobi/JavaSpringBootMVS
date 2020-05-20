@@ -28,7 +28,7 @@ public class Car {
 
     @JoinColumn(name = "assessed_value_id")
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<Rate> rate;
+    private List<Rate> rates;
 
 
 
